@@ -7,13 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		69A42DC6200EE3A4009CE7F2 /* SBLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69A42DC5200EE3A4009CE7F2 /* SBLayout.swift */; };
+		69A42DC8200EECC4009CE7F2 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69A42DC7200EECC4009CE7F2 /* CustomTextField.swift */; };
+		69A560B120102DA900781947 /* MainWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69A560B020102DA900781947 /* MainWindowController.swift */; };
 		69AE93B2200D94B100AFA5C2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69AE93B1200D94B100AFA5C2 /* AppDelegate.swift */; };
 		69AE93B4200D94B100AFA5C2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69AE93B3200D94B100AFA5C2 /* ViewController.swift */; };
 		69AE93B6200D94B200AFA5C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 69AE93B5200D94B200AFA5C2 /* Assets.xcassets */; };
 		69AE93B9200D94B200AFA5C2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69AE93B7200D94B200AFA5C2 /* Main.storyboard */; };
+		69AE93C2200D958B00AFA5C2 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69AE93C1200D958B00AFA5C2 /* SecondViewController.swift */; };
+		69AE93C4200DA1C100AFA5C2 /* CustomSegmentControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69AE93C3200DA1C100AFA5C2 /* CustomSegmentControl.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		69A42DC5200EE3A4009CE7F2 /* SBLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SBLayout.swift; sourceTree = "<group>"; };
+		69A42DC7200EECC4009CE7F2 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		69A560B020102DA900781947 /* MainWindowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainWindowController.swift; sourceTree = "<group>"; };
 		69AE93AE200D94B100AFA5C2 /* Mac_test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mac_test.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		69AE93B1200D94B100AFA5C2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		69AE93B3200D94B100AFA5C2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -21,6 +29,8 @@
 		69AE93B8200D94B200AFA5C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		69AE93BA200D94B200AFA5C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		69AE93BB200D94B200AFA5C2 /* Mac_test.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Mac_test.entitlements; sourceTree = "<group>"; };
+		69AE93C1200D958B00AFA5C2 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		69AE93C3200DA1C100AFA5C2 /* CustomSegmentControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSegmentControl.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,7 +64,12 @@
 			isa = PBXGroup;
 			children = (
 				69AE93B1200D94B100AFA5C2 /* AppDelegate.swift */,
+				69A560B020102DA900781947 /* MainWindowController.swift */,
 				69AE93B3200D94B100AFA5C2 /* ViewController.swift */,
+				69AE93C1200D958B00AFA5C2 /* SecondViewController.swift */,
+				69AE93C3200DA1C100AFA5C2 /* CustomSegmentControl.swift */,
+				69A42DC7200EECC4009CE7F2 /* CustomTextField.swift */,
+				69A42DC5200EE3A4009CE7F2 /* SBLayout.swift */,
 				69AE93B5200D94B200AFA5C2 /* Assets.xcassets */,
 				69AE93B7200D94B200AFA5C2 /* Main.storyboard */,
 				69AE93BA200D94B200AFA5C2 /* Info.plist */,
@@ -96,6 +111,11 @@
 					69AE93AD200D94B100AFA5C2 = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -134,6 +154,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				69A42DC8200EECC4009CE7F2 /* CustomTextField.swift in Sources */,
+				69A560B120102DA900781947 /* MainWindowController.swift in Sources */,
+				69AE93C4200DA1C100AFA5C2 /* CustomSegmentControl.swift in Sources */,
+				69AE93C2200D958B00AFA5C2 /* SecondViewController.swift in Sources */,
+				69A42DC6200EE3A4009CE7F2 /* SBLayout.swift in Sources */,
 				69AE93B4200D94B100AFA5C2 /* ViewController.swift in Sources */,
 				69AE93B2200D94B100AFA5C2 /* AppDelegate.swift in Sources */,
 			);

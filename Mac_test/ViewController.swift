@@ -12,10 +12,14 @@ class ViewController: NSViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
         // Do any additional setup after loading the view.
     }
-
+    override func prepare(for segue: NSStoryboardSegue, sender: Any?) {
+        if segue.identifier!.rawValue == "show" {
+            view.window?.close()
+        }
+    }
     override var representedObject: Any? {
         didSet {
         // Update the view, if already loaded.
