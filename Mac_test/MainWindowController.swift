@@ -12,7 +12,6 @@ class MainWindowController: SBWindowController {
 
     override func windowDidLoad() {
         super.windowDidLoad()
-        window?.isMovableByWindowBackground = true
         
     }
 
