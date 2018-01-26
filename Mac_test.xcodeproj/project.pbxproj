@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		69721289201AC18700C3C7CB /* SBWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69721288201AC18700C3C7CB /* SBWindowController.swift */; };
 		69A42DC6200EE3A4009CE7F2 /* SBLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69A42DC5200EE3A4009CE7F2 /* SBLayout.swift */; };
 		69A42DC8200EECC4009CE7F2 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69A42DC7200EECC4009CE7F2 /* CustomTextField.swift */; };
 		69A560B120102DA900781947 /* MainWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69A560B020102DA900781947 /* MainWindowController.swift */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		69721288201AC18700C3C7CB /* SBWindowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SBWindowController.swift; sourceTree = "<group>"; };
 		69A42DC5200EE3A4009CE7F2 /* SBLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SBLayout.swift; sourceTree = "<group>"; };
 		69A42DC7200EECC4009CE7F2 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
 		69A560B020102DA900781947 /* MainWindowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainWindowController.swift; sourceTree = "<group>"; };
@@ -70,6 +72,7 @@
 				69AE93C3200DA1C100AFA5C2 /* CustomSegmentControl.swift */,
 				69A42DC7200EECC4009CE7F2 /* CustomTextField.swift */,
 				69A42DC5200EE3A4009CE7F2 /* SBLayout.swift */,
+				69721288201AC18700C3C7CB /* SBWindowController.swift */,
 				69AE93B5200D94B200AFA5C2 /* Assets.xcassets */,
 				69AE93B7200D94B200AFA5C2 /* Main.storyboard */,
 				69AE93BA200D94B200AFA5C2 /* Info.plist */,
@@ -158,6 +161,7 @@
 				69A560B120102DA900781947 /* MainWindowController.swift in Sources */,
 				69AE93C4200DA1C100AFA5C2 /* CustomSegmentControl.swift in Sources */,
 				69AE93C2200D958B00AFA5C2 /* SecondViewController.swift in Sources */,
+				69721289201AC18700C3C7CB /* SBWindowController.swift in Sources */,
 				69A42DC6200EE3A4009CE7F2 /* SBLayout.swift in Sources */,
 				69AE93B4200D94B100AFA5C2 /* ViewController.swift in Sources */,
 				69AE93B2200D94B100AFA5C2 /* AppDelegate.swift in Sources */,
